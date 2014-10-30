@@ -1,0 +1,13 @@
+I'm a starting using Laravel and noticed, that - I think - Composer delivers 2 faulty files in the directory
+app/vendor/symfony/translation/Symfony/Component/Translation/Tests/fixtures
+empty.json is empty but I think it should contain {}
+
+and
+
+malformed.json
+{
+    "foo": "bar" "
+}
+(May be that's the reason, that the files name is malformed ;-)) 
+
+FJK@FJKarli.ch
